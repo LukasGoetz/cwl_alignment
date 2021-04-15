@@ -8,10 +8,18 @@ requirements:
 inputs:
   reads1:
     type: File
+    format:
+      - edam:format_1930 # FASTA
+      - edam:format_1931 # FASTQ
   reads2:
     type: File
+    format:
+      - edam:format_1930 # FASTA
+      - edam:format_1931 # FASTQ
   ref_genome:
     type: File
+    format:
+      - edam:format_1930 # FASTA
     secondaryFiles:
       - .fai
       - .amb
