@@ -38,20 +38,20 @@ steps:
     run: trimmomatic.cwl
     in:
       read_type:
-        valueFrom: "PE"
+        default: "PE"
       n_threads: n_threads
       base_qual_encoding:
-        valueFrom: "-phred33"
+        default: "-phred33"
       reads1: reads1
       reads2: reads2
       clip:
-        valueFrom: "ILLUMINACLIP:/opt/trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10"
+        default: "ILLUMINACLIP:/opt/trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10"
       crop:
-        valueFrom: "HEADCROP:3"
+        default: "HEADCROP:3"
       trailing:
-        valueFrom: "TRAILING:10"
+        default: "TRAILING:10"
       minlen:
-        valueFrom: "MINLEN:25"
+        default: "MINLEN:25"
     out:
       - reads1_trimmed_paired
       - reads2_trimmed_paired
