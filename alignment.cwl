@@ -45,7 +45,7 @@ steps:
       reads1: reads1
       reads2: reads2
       clip:
-        valueFrom: "ILLUMINACLIP:/opt/Trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10"
+        valueFrom: "ILLUMINACLIP:/opt/trimmomatic/adapters/TruSeq3-PE-2.fa:2:30:10"
       crop:
         valueFrom: "HEADCROP:3"
       trailing:
