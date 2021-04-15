@@ -5,7 +5,7 @@ class: CommandLineTool
 hints:
   DockerRequirement:
     dockerPull: biomagician/trimmomatic:0.39
-baseCommand: [java, -jar, /opt/Trimmomatic/trimmomatic.jar]
+baseCommand: [java, -jar, /opt/trimmomatic/trimmomatic.jar]
 arguments:
   - valueFrom: $(inputs.reads1.nameroot).trimmed.fastq
     position: 6
