@@ -127,3 +127,8 @@ outputs:
    output_bam:
      type: File
      outputSource: picard/fixed_bam
+
+$namespaces:
+  edam: http://edamontology.org/
+$schemas:
+  - http://edamontology.org/EDAM_1.18.owl
