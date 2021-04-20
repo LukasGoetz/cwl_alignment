@@ -1,7 +1,7 @@
 # cwl_alignment
 
 'cwl_alignment' is a basic cwl workflow to perform a sequence alignment based on paired-end read sets using docker images.
-![alt text](graph.ps)
+![alt text](graph.png)
 
 ## Prerequisites
 
