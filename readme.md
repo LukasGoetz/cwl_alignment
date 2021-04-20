@@ -11,7 +11,7 @@
 ## Getting Started
 
 ```bash
-./alignment.cwl --reads1 <read set 1> --reads2 <read set 2> --ref_genome <reference genome with index created by bwa-mem2> --n_threads <number of threads>
+./src/alignment.cwl --reads1 <read set 1> --reads2 <read set 2> --ref_genome <reference genome with index created by bwa-mem2> --n_threads <number of threads>
 ```
 
 ## License
