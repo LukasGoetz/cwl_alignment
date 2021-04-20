@@ -1,0 +1,1004 @@
+%!PS-Adobe-3.0
+%%Creator: graphviz version 2.40.1 (20161225.0304)
+%%Title: G
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save
+%%BeginProlog
+/DotDict 200 dict def
+DotDict begin
+
+/setupLatin1 {
+mark
+/EncodingVector 256 array def
+ EncodingVector 0
+
+ISOLatin1Encoding 0 255 getinterval putinterval
+EncodingVector 45 /hyphen put
+
+% Set up ISO Latin 1 character encoding
+/starnetISO {
+        dup dup findfont dup length dict begin
+        { 1 index /FID ne { def }{ pop pop } ifelse
+        } forall
+        /Encoding EncodingVector def
+        currentdict end definefont
+} def
+/Times-Roman starnetISO def
+/Times-Italic starnetISO def
+/Times-Bold starnetISO def
+/Times-BoldItalic starnetISO def
+/Helvetica starnetISO def
+/Helvetica-Oblique starnetISO def
+/Helvetica-Bold starnetISO def
+/Helvetica-BoldOblique starnetISO def
+/Courier starnetISO def
+/Courier-Oblique starnetISO def
+/Courier-Bold starnetISO def
+/Courier-BoldOblique starnetISO def
+cleartomark
+} bind def
+
+%%BeginResource: procset graphviz 0 0
+/coord-font-family /Times-Roman def
+/default-font-family /Times-Roman def
+/coordfont coord-font-family findfont 8 scalefont def
+
+/InvScaleFactor 1.0 def
+/set_scale {
+       dup 1 exch div /InvScaleFactor exch def
+       scale
+} bind def
+
+% styles
+/solid { [] 0 setdash } bind def
+/dashed { [9 InvScaleFactor mul dup ] 0 setdash } bind def
+/dotted { [1 InvScaleFactor mul 6 InvScaleFactor mul] 0 setdash } bind def
+/invis {/fill {newpath} def /stroke {newpath} def /show {pop newpath} def} bind def
+/bold { 2 setlinewidth } bind def
+/filled { } bind def
+/unfilled { } bind def
+/rounded { } bind def
+/diagonals { } bind def
+/tapered { } bind def
+
+% hooks for setting color 
+/nodecolor { sethsbcolor } bind def
+/edgecolor { sethsbcolor } bind def
+/graphcolor { sethsbcolor } bind def
+/nopcolor {pop pop pop} bind def
+
+/beginpage {	% i j npages
+	/npages exch def
+	/j exch def
+	/i exch def
+	/str 10 string def
+	npages 1 gt {
+		gsave
+			coordfont setfont
+			0 0 moveto
+			(\() show i str cvs show (,) show j str cvs show (\)) show
+		grestore
+	} if
+} bind def
+
+/set_font {
+	findfont exch
+	scalefont setfont
+} def
+
+% draw text fitted to its expected width
+/alignedtext {			% width text
+	/text exch def
+	/width exch def
+	gsave
+		width 0 gt {
+			[] 0 setdash
+			text stringwidth pop width exch sub text length div 0 text ashow
+		} if
+	grestore
+} def
+
+/boxprim {				% xcorner ycorner xsize ysize
+		4 2 roll
+		moveto
+		2 copy
+		exch 0 rlineto
+		0 exch rlineto
+		pop neg 0 rlineto
+		closepath
+} bind def
+
+/ellipse_path {
+	/ry exch def
+	/rx exch def
+	/y exch def
+	/x exch def
+	matrix currentmatrix
+	newpath
+	x y translate
+	rx ry scale
+	0 0 1 0 360 arc
+	setmatrix
+} bind def
+
+/endpage { showpage } bind def
+/showpage { } def
+
+/layercolorseq
+	[	% layer color sequence - darkest to lightest
+		[0 0 0]
+		[.2 .8 .8]
+		[.4 .8 .8]
+		[.6 .8 .8]
+		[.8 .8 .8]
+	]
+def
+
+/layerlen layercolorseq length def
+
+/setlayer {/maxlayer exch def /curlayer exch def
+	layercolorseq curlayer 1 sub layerlen mod get
+	aload pop sethsbcolor
+	/nodecolor {nopcolor} def
+	/edgecolor {nopcolor} def
+	/graphcolor {nopcolor} def
+} bind def
+
+/onlayer { curlayer ne {invis} if } def
+
+/onlayers {
+	/myupper exch def
+	/mylower exch def
+	curlayer mylower lt
+	curlayer myupper gt
+	or
+	{invis} if
+} def
+
+/curlayer 0 def
+
+%%EndResource
+%%EndProlog
+%%BeginSetup
+14 default-font-family set_font
+% /arrowlength 10 def
+% /arrowwidth 5 def
+
+% make sure pdfmark is harmless for PS-interpreters other than Distiller
+/pdfmark where {pop} {userdict /pdfmark /cleartomark load put} ifelse
+% make '<<' and '>>' safe on PS Level 1 devices
+/languagelevel where {pop languagelevel}{1} ifelse
+2 lt {
+    userdict (<<) cvn ([) cvn load put
+    userdict (>>) cvn ([) cvn load put
+} if
+
+%%EndSetup
+setupLatin1
+%%Page: 1 1
+%%PageBoundingBox: 36 36 1358 412
+%%PageOrientation: Portrait
+0 0 1 beginpage
+gsave
+36 36 1322 376 boxprim clip newpath
+1 1 set_scale 0 rotate 40 40 translate
+0 0 0.93333 graphcolor
+newpath -4 -4 moveto
+-4 371.6618 lineto
+1318 371.6618 lineto
+1318 -4 lineto
+closepath fill
+% cluster_inputs
+gsave
+0 0 0.93333 graphcolor
+newpath 2 8 moveto
+2 250 lineto
+112 250 lineto
+112 8 lineto
+closepath fill
+1 setlinewidth
+dashed
+0 0 0 graphcolor
+newpath 2 8 moveto
+2 250 lineto
+112 250 lineto
+112 8 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Times-Roman set_font
+10 15.8 moveto 94 (Workflow Inputs) alignedtext
+grestore
+% cluster_outputs
+gsave
+0 0 0.93333 graphcolor
+newpath 1195 183 moveto
+1195 260 lineto
+1314 260 lineto
+1314 183 lineto
+closepath fill
+1 setlinewidth
+dashed
+0 0 0 graphcolor
+newpath 1195 183 moveto
+1195 260 lineto
+1314 260 lineto
+1314 183 lineto
+closepath stroke
+0 0 0 graphcolor
+14 /Times-Roman set_font
+1203 190.8 moveto 103 (Workflow Outputs) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_realigner
+gsave
+0.16471 0.15686 0.98039 nodecolor
+newpath 824 215 moveto
+824 251 lineto
+919 251 lineto
+919 215 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 824 215 moveto
+824 251 lineto
+919 251 lineto
+919 215 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+832 229.3 moveto 79 (gatk_realigner) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_indelrealigner
+gsave
+0.16471 0.15686 0.98039 nodecolor
+newpath 955 215 moveto
+955 251 lineto
+1077 251 lineto
+1077 215 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 955 215 moveto
+955 251 lineto
+1077 251 lineto
+1077 215 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+963 229.3 moveto 106 (gatk_indelrealigner) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_realigner->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_indelrealigner
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 919.2152 233 moveto
+927.4281 233 936.121 233 944.7938 233 curveto
+stroke
+0 0 0 edgecolor
+newpath 944.9358 236.5001 moveto
+954.9358 233 lineto
+944.9358 229.5001 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 944.9358 236.5001 moveto
+954.9358 233 lineto
+944.9358 229.5001 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#picard
+gsave
+0.16471 0.15686 0.98039 nodecolor
+newpath 1113 215 moveto
+1113 251 lineto
+1167 251 lineto
+1167 215 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 1113 215 moveto
+1113 251 lineto
+1167 251 lineto
+1167 215 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1123 229.3 moveto 34 (picard) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_indelrealigner->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#picard
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1077.2735 233 moveto
+1085.9282 233 1094.6019 233 1102.6197 233 curveto
+stroke
+0 0 0 edgecolor
+newpath 1102.7254 236.5001 moveto
+1112.7253 233 lineto
+1102.7253 229.5001 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1102.7254 236.5001 moveto
+1112.7253 233 lineto
+1102.7253 229.5001 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_index
+gsave
+0.16471 0.15686 0.98039 nodecolor
+newpath 712 262 moveto
+712 298 lineto
+788 298 lineto
+788 262 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 712 262 moveto
+712 298 lineto
+788 298 lineto
+788 262 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+720 276.3 moveto 60 (sam_index) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_index->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_realigner
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 788.11 265.2579 moveto
+796.6842 261.9411 805.9605 258.3527 815.1045 254.8155 curveto
+stroke
+0 0 0 edgecolor
+newpath 816.487 258.0336 moveto
+824.5507 251.1614 lineto
+813.9615 251.505 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 816.487 258.0336 moveto
+824.5507 251.1614 lineto
+813.9615 251.505 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_index->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_indelrealigner
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 788.2059 277.5566 moveto
+822.6453 274.9163 874.551 269.8479 919 261 curveto
+929.031 259.0033 939.5287 256.4621 949.7593 253.7283 curveto
+stroke
+0 0 0 edgecolor
+newpath 950.7483 257.0864 moveto
+959.4622 251.0598 lineto
+948.892 250.337 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 950.7483 257.0864 moveto
+959.4622 251.0598 lineto
+948.892 250.337 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#trimming
+gsave
+0.16471 0.15686 0.98039 nodecolor
+newpath 140 110 moveto
+140 146 lineto
+208 146 lineto
+208 110 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 140 110 moveto
+140 146 lineto
+208 146 lineto
+208 110 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+148 124.3 moveto 52 (trimming) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#bwa_mem2
+gsave
+0.16471 0.15686 0.98039 nodecolor
+newpath 244 110 moveto
+244 146 lineto
+325 146 lineto
+325 110 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 244 110 moveto
+244 146 lineto
+325 146 lineto
+325 110 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+252 124.3 moveto 65 (bwa_mem2) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#trimming->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#bwa_mem2
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 208.0553 121.7124 moveto
+216.1682 121.341 224.9998 121.1934 233.6843 121.2694 curveto
+stroke
+0 0 0 edgecolor
+newpath 233.6948 124.7701 moveto
+243.7597 121.4613 lineto
+233.8282 117.7714 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 233.6948 124.7701 moveto
+243.7597 121.4613 lineto
+233.8282 117.7714 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#trimming->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#bwa_mem2
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 208.0553 134.2876 moveto
+216.1682 134.659 224.9998 134.8066 233.6843 134.7306 curveto
+stroke
+0 0 0 edgecolor
+newpath 233.8282 138.2286 moveto
+243.7597 134.5387 lineto
+233.6948 131.2299 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 233.8282 138.2286 moveto
+243.7597 134.5387 lineto
+233.6948 131.2299 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_view
+gsave
+0.16471 0.15686 0.98039 nodecolor
+newpath 361 186 moveto
+361 222 lineto
+433 222 lineto
+433 186 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 361 186 moveto
+361 222 lineto
+433 222 lineto
+433 186 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+369 200.3 moveto 56 (sam_view) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#bwa_mem2->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_view
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 311.1609 146.0109 moveto
+326.1826 156.1589 345.14 168.9657 361.4161 179.9611 curveto
+stroke
+0 0 0 edgecolor
+newpath 359.8949 183.1573 moveto
+370.1406 185.855 lineto
+363.8135 177.3568 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 359.8949 183.1573 moveto
+370.1406 185.855 lineto
+363.8135 177.3568 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_sort
+gsave
+0.16471 0.15686 0.98039 nodecolor
+newpath 469 224 moveto
+469 260 lineto
+535 260 lineto
+535 224 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 469 224 moveto
+469 260 lineto
+535 260 lineto
+535 224 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+477 238.3 moveto 50 (sam_sort) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_view->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_sort
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 433.135 217.0774 moveto
+441.5828 220.1347 450.6588 223.4194 459.3599 226.5683 curveto
+stroke
+0 0 0 edgecolor
+newpath 458.3767 229.9346 moveto
+468.971 230.0466 lineto
+460.7589 223.3524 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 458.3767 229.9346 moveto
+468.971 230.0466 lineto
+460.7589 223.3524 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_view_filter
+gsave
+0.16471 0.15686 0.98039 nodecolor
+newpath 571 262 moveto
+571 298 lineto
+676 298 lineto
+676 262 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 571 262 moveto
+571 298 lineto
+676 298 lineto
+676 262 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+579 276.3 moveto 89 (sam_view_filter) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_sort->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_view_filter
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 535.2004 252.3837 moveto
+543.2497 254.9012 552.1178 257.6747 561.0351 260.4636 curveto
+stroke
+0 0 0 edgecolor
+newpath 560.1054 263.84 moveto
+570.6943 263.4846 lineto
+562.1949 257.1591 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 560.1054 263.84 moveto
+570.6943 263.4846 lineto
+562.1949 257.1591 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_view_filter->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_index
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 676.0484 280 moveto
+684.5422 280 693.3011 280 701.6884 280 curveto
+stroke
+0 0 0 edgecolor
+newpath 701.6918 283.5001 moveto
+711.6918 280 lineto
+701.6918 276.5001 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 701.6918 283.5001 moveto
+711.6918 280 lineto
+701.6918 276.5001 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#output_bam
+gsave
+0.53993 0.39344 0.95686 nodecolor
+newpath 1213 215 moveto
+1213 251 lineto
+1295 251 lineto
+1295 215 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 1213 215 moveto
+1213 251 lineto
+1295 251 lineto
+1295 215 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+1221 229.3 moveto 66 (output_bam) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#picard->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#output_bam
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 1167.0164 233 moveto
+1177.7158 233 1190.3856 233 1202.6973 233 curveto
+stroke
+0 0 0 edgecolor
+newpath 1202.9038 236.5001 moveto
+1212.9038 233 lineto
+1202.9038 229.5001 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 1202.9038 236.5001 moveto
+1212.9038 233 lineto
+1202.9038 229.5001 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#n_threads
+gsave
+0.53993 0.39344 0.95686 nodecolor
+newpath 22.5 205 moveto
+22.5 241 lineto
+91.5 241 lineto
+91.5 205 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 22.5 205 moveto
+22.5 241 lineto
+91.5 241 lineto
+91.5 205 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+30.5 219.3 moveto 53 (n_threads) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#n_threads->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_realigner
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 91.5606 239.6546 moveto
+135.383 259.2065 213.7649 289 284.5 289 curveto
+284.5 289 284.5 289 397 289 curveto
+458.9119 289 475.6556 287.6445 535 270 curveto
+551.9605 264.9572 553.8727 257.4431 571 253 curveto
+653.2893 231.653 752.2689 229.3545 813.5429 230.5191 curveto
+stroke
+0 0 0 edgecolor
+newpath 813.7108 234.0237 moveto
+823.7881 230.7529 lineto
+813.8706 227.0255 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 813.7108 234.0237 moveto
+823.7881 230.7529 lineto
+813.8706 227.0255 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#n_threads->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_index
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 70.363 241.2018 moveto
+85.174 259.9219 110.8533 288.3485 140 303 curveto
+198.1665 332.2393 219.398 327 284.5 327 curveto
+284.5 327 284.5 327 502 327 curveto
+579.793 327 600.3497 326.1322 676 308 curveto
+684.6377 305.9297 693.6332 303.1188 702.2547 300.0735 curveto
+stroke
+0 0 0 edgecolor
+newpath 703.6156 303.3021 moveto
+711.7906 296.5626 lineto
+701.1971 296.7332 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 703.6156 303.3021 moveto
+711.7906 296.5626 lineto
+701.1971 296.7332 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#n_threads->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#trimming
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 91.5608 208.9335 moveto
+98.6749 205.2606 105.8606 200.9262 112 196 curveto
+127.5374 183.5328 126.604 175.744 140 161 curveto
+142.268 158.5038 144.6816 155.9607 147.136 153.4498 curveto
+stroke
+0 0 0 edgecolor
+newpath 149.9054 155.6311 moveto
+154.5169 146.0925 lineto
+144.9636 150.6734 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 149.9054 155.6311 moveto
+154.5169 146.0925 lineto
+144.9636 150.6734 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#n_threads->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#bwa_mem2
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 91.5524 208.5715 moveto
+129.5721 192.6952 191.0259 167.0332 234.3462 148.9434 curveto
+stroke
+0 0 0 edgecolor
+newpath 235.9669 152.0595 moveto
+243.846 144.9764 lineto
+233.2695 145.6001 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 235.9669 152.0595 moveto
+243.846 144.9764 lineto
+233.2695 145.6001 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#n_threads->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_view
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 91.7881 221.056 moveto
+153.4447 217.6104 281.8786 210.4333 350.8485 206.5791 curveto
+stroke
+0 0 0 edgecolor
+newpath 351.1939 210.0653 moveto
+360.983 206.0127 lineto
+350.8032 203.0762 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 351.1939 210.0653 moveto
+360.983 206.0127 lineto
+350.8032 203.0762 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#n_threads->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_sort
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 91.7014 226.3238 moveto
+106.5629 227.6443 124.1204 229.0678 140 230 curveto
+254.7029 236.7336 390.0895 239.9683 458.196 241.2684 curveto
+stroke
+0 0 0 edgecolor
+newpath 458.4722 244.7741 moveto
+468.5356 241.4607 lineto
+458.6024 237.7753 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 458.4722 244.7741 moveto
+468.5356 241.4607 lineto
+458.6024 237.7753 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#n_threads->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#sam_view_filter
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 64.3149 241.2373 moveto
+76.0202 267.8759 101.6194 316.8734 140 341 curveto
+195.1167 375.6471 219.398 365 284.5 365 curveto
+284.5 365 284.5 365 397 365 curveto
+467.5809 365 543.0984 328.3731 586.6577 303.2056 curveto
+stroke
+0 0 0 edgecolor
+newpath 588.6129 306.116 moveto
+595.4545 298.0263 lineto
+585.0613 300.0839 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 588.6129 306.116 moveto
+595.4545 298.0263 lineto
+585.0613 300.0839 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#ref_genome
+gsave
+0.53993 0.39344 0.95686 nodecolor
+newpath 16 40 moveto
+16 76 lineto
+98 76 lineto
+98 40 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 16 40 moveto
+16 76 lineto
+98 76 lineto
+98 40 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+24 54.3 moveto 66 (ref_genome) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#ref_genome->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_realigner
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 98.3705 41.9785 moveto
+111.5328 37.3059 126.2471 32.517 140 29 curveto
+203.0723 12.8706 219.398 5 284.5 5 curveto
+284.5 5 284.5 5 623.5 5 curveto
+740.9165 5 826.6922 145.2195 858.2428 205.7332 curveto
+stroke
+0 0 0 edgecolor
+newpath 855.1712 207.4142 moveto
+862.8374 214.7272 lineto
+861.4049 204.2297 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 855.1712 207.4142 moveto
+862.8374 214.7272 lineto
+861.4049 204.2297 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#ref_genome->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#gatk_indelrealigner
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 98.0448 53.6614 moveto
+143.56 49.2313 219.1892 43 284.5 43 curveto
+284.5 43 284.5 43 750 43 curveto
+861.2805 43 958.1477 154.47 997.3949 206.6484 curveto
+stroke
+0 0 0 edgecolor
+newpath 994.648 208.8204 moveto
+1003.4064 214.782 lineto
+1000.2773 204.6598 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 994.648 208.8204 moveto
+1003.4064 214.782 lineto
+1000.2773 204.6598 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#ref_genome->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#bwa_mem2
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 98.2793 68.5326 moveto
+128.7795 76.5443 171.2157 88.1732 208 100 curveto
+216.5108 102.7364 225.4827 105.8285 234.1692 108.934 curveto
+stroke
+0 0 0 edgecolor
+newpath 233.2212 112.313 moveto
+243.8154 112.4275 lineto
+235.6049 105.7314 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 233.2212 112.313 moveto
+243.8154 112.4275 lineto
+235.6049 105.7314 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#reads1
+gsave
+0.53993 0.39344 0.95686 nodecolor
+newpath 30 150 moveto
+30 186 lineto
+84 186 lineto
+84 150 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 30 150 moveto
+30 186 lineto
+84 186 lineto
+84 150 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+39 164.3 moveto 36 (reads1) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#reads1->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#trimming
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 84.1362 158.7227 moveto
+97.7587 154.0654 114.6026 148.3068 130.0125 143.0385 curveto
+stroke
+0 0 0 edgecolor
+newpath 131.5536 146.2106 moveto
+139.8836 139.6637 lineto
+129.289 139.587 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 131.5536 146.2106 moveto
+139.8836 139.6637 lineto
+129.289 139.587 lineto
+closepath stroke
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#reads2
+gsave
+0.53993 0.39344 0.95686 nodecolor
+newpath 30 95 moveto
+30 131 lineto
+84 131 lineto
+84 95 lineto
+closepath fill
+1 setlinewidth
+filled
+0 0 0 nodecolor
+newpath 30 95 moveto
+30 131 lineto
+84 131 lineto
+84 95 lineto
+closepath stroke
+0 0 0 nodecolor
+14 /Times-Roman set_font
+39 109.3 moveto 36 (reads2) alignedtext
+grestore
+% file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#reads2->file:///home/lukas/work/umm/gacs/test/cwl_pipeline/cwl_alignment/alignment.cwl#trimming
+gsave
+1 setlinewidth
+0 0 0 edgecolor
+newpath 84.1362 116.479 moveto
+97.629 118.2088 114.2821 120.3439 129.5718 122.3041 curveto
+stroke
+0 0 0 edgecolor
+newpath 129.5197 125.826 moveto
+139.8836 123.6261 lineto
+130.4099 118.8828 lineto
+closepath fill
+1 setlinewidth
+solid
+0 0 0 edgecolor
+newpath 129.5197 125.826 moveto
+139.8836 123.6261 lineto
+130.4099 118.8828 lineto
+closepath stroke
+grestore
+endpage
+showpage
+grestore
+%%PageTrailer
+%%EndPage: 1
+%%Trailer
+%%Pages: 1
+%%BoundingBox: 36 36 1358 412
+end
+restore
+%%EOF
